@@ -10,8 +10,8 @@ const Hero = () => {
 			className=""
 		>
 			<div className="bg-gradient-to-t from-appskep-primary/25 to-transparent h-full">
-				<div className="container relative mx-auto my-0 ">
-					<div className=" mx-auto relative max-w-screen-lg mb-[4rem] md:mb-20 lg:mb-[6rem] lg:grid grid-cols-2 gap-2">
+				<div className="container relative mx-auto my-0  pb-[2rem]">
+					<div className=" mx-auto relative max-w-screen-lg lg:grid grid-cols-2 gap-2">
 						<div className="px-5 flex flex-col">
 							<h1 className="leading-[1.2] mb-8">
 								Perawatan Kesehatan di Rumah dengan Layanan <span className="text-appskep-primary">Profesional</span> dan <span className="text-appskep-primary">Berkualitas</span>
@@ -23,10 +23,10 @@ const Hero = () => {
 
 							<div><Button title="Pesan Sekarang" classes=""/></div>
 						</div>
-						<div className="sm:hidden lg:block p-0 mb-20">
+						<div className="sm:hidden lg:block p-0 ">
 							<img className="object-cover w-full m-0" src={section1Image} alt="Apps Homecare" height="50px"/>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
