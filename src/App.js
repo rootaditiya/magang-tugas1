@@ -11,7 +11,7 @@ const App = () => {
         <Hero/>
 
         <div className="fixed bottom-5 right-5">
-          <Button title="Chat" img={ChatIcon}/>
+          <Button title="Chat" img={ChatIcon} classes="border-2 border-white"/>
         </div>
 
       </div>
