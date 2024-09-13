@@ -1,5 +1,5 @@
 const Section = ({
-	className,
+	ClassName,
 	id,
 	crosses,
 	crossesOffset,
@@ -12,7 +12,7 @@ const Section = ({
 		// `} 
 		// >
 		// 
-		<div id={id} className={`relative flex justify-center items-center py-10`} 
+		<div id={id} className={`relative flex justify-center items-center py-[39px] sm:py-[32px] ${ClassName || ''}`} 
 		>
 			{children}
 

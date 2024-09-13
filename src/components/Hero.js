@@ -7,9 +7,9 @@ const Hero = () => {
 
 		<Section
 			id="hero"
-			className=""
+			ClassName=""
 		>
-			<div className="bg-gradient-to-t from-appskep-primary/10 to-transparent w-full h-full">
+			<div className="bg-gradient-to-t from-appskep-primary/10 to-transparent w-full h-full pb-[13px] sm:pb-[12px]">
 				<div className="container relative mx-auto my-0  pb-[2rem]">
 					<div className=" mx-auto relative max-w-screen-lg lg:grid grid-cols-2 gap-2">
 						<div className="px-5 flex flex-col">

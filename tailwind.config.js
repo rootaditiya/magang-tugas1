@@ -11,7 +11,10 @@ module.exports = {
           'primary': '#00a3e9',
           'primary-hover': '#0095e8',
           'secondary': '#68748b',
-          'dark': '#2e3a40'
+          'black': '#181c32',
+          'dark': '#2e3a40',
+          'blue': '#335ca7',
+          'lightBlue': '#85cede',
         }
       }
     },

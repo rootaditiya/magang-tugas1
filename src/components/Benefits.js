@@ -31,13 +31,17 @@ const Benefits = () => {
 		
 
 	return(
-		<Section>
-			<div className="container relative flex flex-col space-y-4 justify-center items-center p-10">
-				<h2>Apa yang Pasien Kami Dapatkan?</h2>
+		<Section
+			id="benefits"
+		>
+			<div className="container relative flex flex-col justify-center items-center ">
+				<h2 className="mb-4">Apa yang Pasien Kami Dapatkan?</h2>
+
 				<p className="text-appskep-secondary">
 					Job Desk Perawat kami yang akan membantu Anda dengan setulus hati
 				</p>
-				<div className="relatif max-w-7xl grid grid-cols-1 gap-10 md:grid-cols-2 justify-items-start">
+ 
+				<div className="relatif lg:max-w-7xl grid grid-cols-1 gap-10 md:grid-cols-2 justify-items-start">
 
 						{benefitsLists.map((item) => (
 								<div key={item.id}
@@ -49,6 +53,10 @@ const Benefits = () => {
 						}
 
 				</div>
+
+				<p className="text-appskep-secondary pt-[32.5px] sm:pt-[30px] mt-0 ">
+					Dan banyak lainnya...
+				</p>
 			</div>
 		</Section>
 		);

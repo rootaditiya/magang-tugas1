@@ -60,7 +60,7 @@ const Header = () => {
 				>
 					
 				</div>
-				<div className={`fixed top-0 w-[250px] min-h-screen bg-white opacity-100 shadow-lg shadow-slate-100/50 transition ease-out delay-150 ${openMenu ? 'translate-x-0': '-translate-x-96'}`}
+				<div className={`fixed top-0 w-[250px] min-h-screen bg-white opacity-100 shadow-lg shadow-slate-100/50 transition-transform delay-150 duration-300 ${openMenu ? 'translate-x-0' : '-translate-x-full'}`}
 					onClick={(e) => e.stopPropagation()}
 					>
 					<Navbar classes="flex flex-col pt-5 px-2 space-y-1"/>
