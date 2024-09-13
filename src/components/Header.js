@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react';
+import React, {useState} from 'react';
 import { useLocation } from 'react-router-dom';
 import Button from './Button.js'
 
@@ -21,7 +21,6 @@ const Header = () => {
         	);
     };
 
-    const menuButton = useRef(null);
 	const openMenuToggle = () => {
 		setOpenMenu(!openMenu);
 	}

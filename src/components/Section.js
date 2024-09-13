@@ -6,9 +6,13 @@ const Section = ({
 	customPaddings,
 	children
 	}) => {
+	
 	return(
-		<div id={id} className={`relative ${customPaddings || `py-10 lg:py-16 xl:py-20 ${crosses ? 'lg:py-32 xl:py40' : ''} ${className || ''}
-		`} `}
+		// <div id={id} className={`relative flex justify-center items-center ${crosses ? 'lg:py-32 xl:py40' : ''} ${className || ''}
+		// `} 
+		// >
+		// 
+		<div id={id} className={`relative flex justify-center items-center py-10`} 
 		>
 			{children}
 

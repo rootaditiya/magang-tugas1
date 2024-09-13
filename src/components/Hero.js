@@ -9,7 +9,7 @@ const Hero = () => {
 			id="hero"
 			className=""
 		>
-			<div className="bg-gradient-to-t from-appskep-primary/25 to-transparent h-full">
+			<div className="bg-gradient-to-t from-appskep-primary/10 to-transparent w-full h-full">
 				<div className="container relative mx-auto my-0  pb-[2rem]">
 					<div className=" mx-auto relative max-w-screen-lg lg:grid grid-cols-2 gap-2">
 						<div className="px-5 flex flex-col">
@@ -21,10 +21,10 @@ const Hero = () => {
 								Kami siap memberikan layanan Homecare live in yang mengutamakan keamanan dan kenyamanan sepenuhnya di rumah Anda.
 							</p>
 
-							<div><Button title="Pesan Sekarang" classes=""/></div>
+							<div><Button title="Pesan Sekarang" classes="border-none"/></div>
 						</div>
-						<div className="sm:hidden lg:block p-0 ">
-							<img className="object-cover w-full m-0" src={section1Image} alt="Apps Homecare" height="50px"/>
+						<div className="hidden lg:block p-0 ">
+							<img className="object-cover w-full m-0" src={section1Image} alt="Apps Homecare" height=""/>
 						</div>
 
 					</div>
