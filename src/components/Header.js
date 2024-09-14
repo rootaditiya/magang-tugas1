@@ -53,13 +53,13 @@ const Header = () => {
 
 			</div>
 
-			<div className={`fixed top-0 left-0 z-20 h-screen w-screen bg-black/25 transition ease-out delay-150 ${openMenu ? 'opacity-100' : 'hidden opacity-0'} duration-300`}
+			<div className={`fixed z-20 h-screen w-screen bg-black/25 transition-opacity ease-in-out delay-150 ${openMenu ? 'top-0 left-0 opacity-100 lg:hidden' : 'z-0 opacity-20'} duration-300`}
 					onClick={openMenuToggle}
 				>
 					
 			</div>
 
-			<div className={`fixed top-0 w-[250px] z-30 min-h-screen bg-white opacity-100 shadow-lg shadow-slate-100/50 text-[12px] font-normal transition ease-in-out delay-150 ${openMenu ? 'translate-x-0' : '-translate-x-full'} duration-300`}
+			<div className={`fixed top-0 w-[250px] z-30 min-h-screen bg-white opacity-100 shadow-lg shadow-slate-100/50 text-[12px] font-normal transition ease-in-out delay-150 ${openMenu ? 'translate-x-0 lg:hidden' : '-translate-x-full'} duration-300`}
 				onClick={(e) => e.stopPropagation()}
 				>
 				<Navbar classes="flex flex-col pt-5 px-2 space-y-1" onClick={openMenuToggle}/>

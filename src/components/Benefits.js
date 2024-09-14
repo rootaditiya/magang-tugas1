@@ -45,7 +45,7 @@ const Benefits = () => {
 
 						{benefitsLists.map((item) => (
 								<div key={item.id}
-								className="flex flex-col gap-4 w-full text-[1.25rem] shadow-2xl shadow-appskep-primary/15 rounded-xl p-10">
+								className="flex flex-col gap-4 w-full text-[1.25rem] shadow-2xl shadow-appskep-primary/15 rounded-xl p-10 transition transform ease-in">
 								<span className="text-appskep-primary">{item.id < 10 ? `0${item.id}` : item.id}</span>
 									<p className="font-medium">{item.title}</p>
 								</div>
