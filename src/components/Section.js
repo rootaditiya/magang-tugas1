@@ -12,7 +12,7 @@ const Section = ({
 		// `} 
 		// >
 		// 
-		<div id={id} className={`relative flex justify-center items-center py-[39px] sm:py-[32px] ${ClassName || ''}`} 
+		<div id={id} className={`relative flex justify-center items-center scroll-mt-20 py-[39px] sm:py-[32px] ${ClassName || ''}`} 
 		>
 			{children}
 
