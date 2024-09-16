@@ -14,7 +14,7 @@ export default function Footer(){
 		<Section id="footer" ClassName="bg-slate-100">
 			<div className="container relative lg:max-w-screen-lg flex flex-col gap-10 items-center text-[14px] text-appskep-dark">
 
-				<div className="grid grid-cols-12">
+				<div className="md:grid grid-cols-12 flex flex-col gap-5">
 
 					<div className="flex flex-col gap-5 col-span-4">
 						<span className="font-bold">

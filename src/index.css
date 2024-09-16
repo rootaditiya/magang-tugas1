@@ -28,4 +28,13 @@
     @apply text-appskep-primary bg-[#e4e6ef];
   }
 
+  .forms{
+    @apply text-[12px] flex flex-col gap-0 ;
+
+  }
+
+  .forms .form-group{
+    @apply bg-appskep-secondary/20 text-appskep-secondary/50 rounded-xl px-5 py-3 focus:border-2 focus:text-appskep-secondary;
+  }
+
 } 
