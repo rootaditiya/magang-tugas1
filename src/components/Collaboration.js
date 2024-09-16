@@ -7,7 +7,7 @@ const Collaboration = () => {
 		<Section 
 		ClassName="bg-appskep-primary "
 		id="join">
-			<div className="container relatif lg:max-w-screen-lg px-[26px] py-[29.25px] bg-white rounded-[40px] flex lg:grid lg:grid-cols-2 gap-0">
+			<div className="container relatif lg:max-w-screen-lg px-[26px] py-[29.25px] bg-appskep-white rounded-[40px] flex lg:grid lg:grid-cols-2 gap-0">
 				 <div className="flex flex-col">
 				 	<div className="mb-[19.5px]">
 				 		<p>#PasienBahagia</p>
@@ -15,7 +15,7 @@ const Collaboration = () => {
 				 	</div>
 
 				 	<div className="flex flex-col space-y-10 mb-[32.5px]">
-				 		<h2>
+				 		<h2 className="text-appskep-dark">
 					 		Bergabunglah bersama kami untuk meningkatkan derajat kesehatan masyarakat Indonesia
 					 	</h2>
 

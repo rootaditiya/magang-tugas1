@@ -53,7 +53,7 @@ const Header = () => {
 
 			</div>
 
-			<div className={`fixed z-20 h-screen w-screen bg-black/25 transition-opacity ease-in-out delay-150 ${openMenu ? 'top-0 left-0 opacity-100 lg:hidden' : 'z-0 opacity-20'} duration-300`}
+			<div className={`fixed z-20 h-screen w-screen bg-black/25 transition-opacity ease-in-out delay-150 ${openMenu ? 'top-0 left-0 opacity-100 lg:hidden' : 'z-0 opacity-20 hidden'} duration-300`}
 					onClick={openMenuToggle}
 				>
 					

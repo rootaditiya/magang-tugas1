@@ -35,7 +35,7 @@ const Benefits = () => {
 			id="benefits"
 		>
 			<div className="container relative flex flex-col justify-center items-center ">
-				<h2 className="mb-4">Apa yang Pasien Kami Dapatkan?</h2>
+				<h2 className="mb-4 text-appskep-dark">Apa yang Pasien Kami Dapatkan?</h2>
 
 				<p className="text-appskep-secondary">
 					Job Desk Perawat kami yang akan membantu Anda dengan setulus hati

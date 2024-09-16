@@ -5,6 +5,10 @@ import Hero from './components/Hero.js'
 import Benefits from './components/Benefits.js'
 import Collaboration from './components/Collaboration.js'
 import Services from './components/Services.js'
+import Privillage from './components/Privillage.js'
+import Price from './components/Price.js'
+import Contact from './components/Contact.js'
+import Footer from './components/Footer.js'
 
 const App = () => {
 
@@ -15,8 +19,12 @@ const App = () => {
         <Header/>
         <Hero/>
         <Services/>
+        <Privillage/>
+        <Price/>
         <Benefits />
         <Collaboration/>
+        <Contact/>
+        <Footer/>
 
         <div className="fixed bottom-5 right-5">
           <Button title="Chat" img={ChatIcon} classes="border-2 border-white"/>
