@@ -35,7 +35,7 @@ const Header = () => {
 	return(
 		<div className="">
 
-			<div className="fixed top-0 left-0 right-0 z-10 backdrop-blur-3xl shadow-lg shadow-slate-100/50">
+			<div className="fixed top-0 left-0 right-0 z-10 bg-white/90 shadow-lg shadow-slate-/50">
 
 				<div className='my-2 flex justify-start items-center max-w-screen-lg items-center py-1 lg:mx-auto sm:ml-5'>
 					<a className="block w-[12rem]" href="#hero">

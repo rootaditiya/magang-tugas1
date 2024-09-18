@@ -4,6 +4,7 @@ import Header from './components/Header.js'
 import Hero from './components/Hero.js'
 import Consult from './components/Consult.js'
 import Benefits from './components/Benefits.js'
+import Feedback from './components/Feedback.js'
 import Collaboration from './components/Collaboration.js'
 import Services from './components/Services.js'
 import Privillage from './components/Privillage.js'
@@ -24,6 +25,7 @@ const App = () => {
         <Privillage/>
         <Price/>
         <Benefits />
+        <Feedback />
         <Collaboration/>
         <Contact/>
         <Footer/>

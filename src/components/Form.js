@@ -20,7 +20,6 @@ export default function Form(){
 		  <div className=" forms">
 		  	<label className="flex flex-col">Kebutuhan Pasien 
 		      	<select className="form-group cursor-pointer">
-					<input type="text"/>
 					<option value="Ford">-- Pilih Kebutuhan Pasien--</option>
 					<option value="Ford">Ford</option>
 					<option value="Volvo" selected>Volvo</option>
@@ -32,7 +31,6 @@ export default function Form(){
 		  <div className=" forms">
 		  	<label className="flex flex-col">Kebutuhan Perawatan 
 		      	<select className="form-group cursor-pointer">
-					<input type="text"/>
 					<option value="Ford">-- Pilih --</option>
 					<option value="Ford">Ford</option>
 					<option value="Volvo" selected>Volvo</option>
