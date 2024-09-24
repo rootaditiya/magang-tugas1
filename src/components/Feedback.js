@@ -6,7 +6,7 @@ export default function Feedback(){
 	const slides = [
 			{id:1, comment:"this comment 1"},
 			{id:2, comment:"this comment 2"},
-			{id:3, comment:"this comment 3"},
+			{id:3, comment:"this comment 3"}
 		]
 
 	return(
@@ -18,7 +18,7 @@ export default function Feedback(){
 					</p>
 
 					<div className="max-w-screen-lg">
-						<Carousel slides={slides}/>
+						<Carousel slides={slides} autoslide={true}/>
 					</div>
 
 				</div>

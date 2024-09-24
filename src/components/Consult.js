@@ -11,12 +11,12 @@ export default function Consult(){
 						Konsultasikan masalah Anda dengan mengisi form di bawah ini
 					</p>
 
-					<div className="grid grid-cols-12">
-						<div className="hidden lg:block col-span-5 pl-[9.75px] pr-[48.75px]">
+					<div className="flex flex-col lg:grid grid-cols-2">
+						<div className="hidden lg:block lg:col pl-[9.75px] pr-[48.75px]">
 							<img alt="" src={ImageSection2}/>
 						</div>
 
-						<div className="lg:col-span-7 md:col-span-12">
+						<div className="flex lg:col">
 							<Form/>
 						</div>
 					</div>

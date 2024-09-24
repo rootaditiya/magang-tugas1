@@ -34,7 +34,7 @@ export default function Footer(){
 						<span className="font-bold">Produk Appskep</span>
 						<ul>
 							{productList.map(item => (
-								<li>
+								<li key={item.index}>
 									{item}
 								</li>
 								))}
