@@ -21,7 +21,14 @@ const Hero = () => {
 								Kami siap memberikan layanan Homecare live in yang mengutamakan keamanan dan kenyamanan sepenuhnya di rumah Anda.
 							</p>
 
-							<div><Button title="Pesan Sekarang" classes="border-none"/></div>
+							<div><Button title="Pesan Sekarang" classes="border-none" 
+								onClick={() => {
+					          	const phoneNumber = "6283850206320"; 
+					          	const message = "Hello!";
+					          
+					          	window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`, '_blank');
+					        	}}
+					        /></div>
 						</div>
 						<div className="hidden lg:block p-0 ">
 							<img className="object-cover w-full m-0" src={section1Image} alt="Apps Homecare" height=""/>

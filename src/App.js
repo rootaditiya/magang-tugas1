@@ -31,7 +31,14 @@ const App = () => {
         <Footer/>
 
         <div className="fixed bottom-5 right-5">
-          <Button title="Chat" img={ChatIcon} classes="border-2 border-white"/>
+          <Button title="Chat" img={ChatIcon} classes="border-2 border-white"
+          onClick={() => {
+          const phoneNumber = "6281378798069"; 
+          const message = "Hello!";
+          
+          window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`, '_blank');
+        }}
+      />
         </div>
 
       </div>

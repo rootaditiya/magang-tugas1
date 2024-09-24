@@ -46,7 +46,7 @@ const Header = () => {
 
 					<span className="flex items-center ml-auto mr-5 space-x-5">
 						<Button title="Pesan Sekarang" classes="ml-auto hidden md:block"/>
-						<h2	className={`lg:hidden sm:block hover:cursor-pointer px-2 rounded-lg hover:is-active  ${openMenu ? 'is-active':'text-appskep-secondary'} `} onClick={openMenuToggle} > = </h2>
+						<h2	className={`select-none lg:hidden sm:block hover:cursor-pointer px-2 rounded-lg hover:is-active  ${openMenu ? 'is-active':'text-appskep-secondary'} `} onClick={openMenuToggle} > = </h2>
 					</span>
 
 				</div>
@@ -63,7 +63,15 @@ const Header = () => {
 				onClick={(e) => e.stopPropagation()}
 				>
 				<Navbar classes="flex flex-col pt-5 px-2 space-y-1" onClick={openMenuToggle}/>
-				<Button title="Pesan Sekarang" classes="ml-5 mt-5"/>
+
+				<Button title="Pesan Sekarang" classes="ml-5 mt-5"
+					onClick={() => {
+			          const phoneNumber = "6283850206320"; 
+			          const message = "Hello!";
+			          
+			          window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`, '_blank');
+			        }}
+			       />
 			</div>
 
 			{/* <div className={`${openMenu ? 'flex' : 'hidden'} fixed top-0 left-0 z-20 inset-0 bg-transparent lg:hidden transition delay-700 duration-500 ease-in-out`}  */}

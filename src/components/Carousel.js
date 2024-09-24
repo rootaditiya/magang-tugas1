@@ -37,7 +37,7 @@ export default function Carousel({slides, autoslide=false, autoslideInterval = 3
 				
 				{
 					extendedSlides.map((item, index) => (
-						<div className={`${handleView(currentIndex) === index ? 'scale-100': 'scale-75'} select-none min-w-[300px] relative flex flex-col shadow-xl shadow-appskep-primary/25 justify-center items-center w-1/3 ${handleView(currentIndex) === index ? 'opacity-100 scale-100': 'opacity-50 scale-50'} transition-transform duration-500 ease-in-out`} key={index}
+						<div className={`${handleView(currentIndex) === index ? 'scale-100': 'scale-50'} select-none min-w-[300px] relative flex flex-col shadow-xl shadow-appskep-primary/25 justify-center items-center w-1/3 ${handleView(currentIndex) === index ? 'opacity-100 scale-100': 'opacity-50 scale-50'} transition-transform duration-500 ease-in-out`} key={index}
 							style={{ 
 								  transform: `translateX(${getTranslateValue()}`, 
 								}}

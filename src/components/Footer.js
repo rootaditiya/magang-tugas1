@@ -42,7 +42,14 @@ export default function Footer(){
 					</div>
 
 					<div className="flex flex-col gap-5 col-span-3">
-						<div className="flex flex-col gap-5">
+						<div className="flex flex-col gap-5 cursor-pointer"
+							onClick={() => {
+					        const phoneNumber = "6283850206320"; 
+					        const message = "Hello!";
+					          
+					        window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`, '_blank');
+				        }}
+				        >
 							<span className="font-bold">
 								Hubungi Kami
 							</span>
