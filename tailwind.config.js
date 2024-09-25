@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens:{
+        'xs': '480px',
+        '2xs': '360px',
+      },
       colors: {
         'appskep': {
           'primary': '#00a3e9',

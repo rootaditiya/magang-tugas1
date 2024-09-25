@@ -24,9 +24,9 @@ const Privillage = () => {
 		];
 
 	return(
-			<Section id="privillage" ClassName="bg-appskep-primary text-white">
+			<Section id="privillage" className="bg-appskep-primary text-white">
 				<div className="container relative flex items-center flex-col gap-5 ">
-					<h2 ClassName="">Apa yang Membuat Kami Unggul?</h2>
+					<h2 className="">Apa yang Membuat Kami Unggul?</h2>
 					<p>
 						Keunggulan yang kami miliki dalam memberikan perawatan terbaik untuk Anda dan orang tersayang
 					</p>

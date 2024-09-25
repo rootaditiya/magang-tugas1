@@ -11,7 +11,7 @@ export default function Footer(){
 		]
 
 	return(
-		<Section id="footer" ClassName="bg-slate-100">
+		<Section id="footer" className="bg-slate-100">
 			<div className="container relative lg:max-w-screen-lg flex flex-col gap-10 items-center text-[14px] text-appskep-dark">
 
 				<div className="md:grid grid-cols-12 flex flex-col gap-5">
@@ -33,8 +33,8 @@ export default function Footer(){
 					<div className="flex flex-col gap-5 col-span-3">
 						<span className="font-bold">Produk Appskep</span>
 						<ul>
-							{productList.map(item => (
-								<li key={item.index}>
+							{productList.map((item, index) => (
+								<li key={index}>
 									{item}
 								</li>
 								))}

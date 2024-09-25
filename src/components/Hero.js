@@ -7,7 +7,8 @@ const Hero = () => {
 
 		<Section
 			id="hero"
-			ClassName=""
+			className=""
+			customPaddings="px-0"
 		>
 			<div className="bg-gradient-to-t from-appskep-primary/10 to-transparent w-full h-full pb-[13px] sm:pb-[12px]">
 				<div className="container relative mx-auto my-0  pb-[2rem]">

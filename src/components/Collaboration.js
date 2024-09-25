@@ -5,7 +5,7 @@ import CollabSectionImage from '../assets/section-2.svg'
 const Collaboration = () => {
 	return(
 		<Section 
-		ClassName="bg-appskep-primary "
+		className="bg-appskep-primary "
 		id="join">
 			<div className="container relatif lg:max-w-screen-lg px-[26px] py-[29.25px] bg-appskep-white rounded-[40px] flex lg:grid lg:grid-cols-2 gap-0">
 				 <div className="flex flex-col">
