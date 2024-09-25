@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       screens:{
         'xs': '480px',
-        '2xs': '360px',
+        '2xs': '300px',
       },
       colors: {
         'appskep': {

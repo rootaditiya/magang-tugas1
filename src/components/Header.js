@@ -45,7 +45,15 @@ const Header = () => {
 					<Navbar classes="hidden lg:flex flex-row justify-items-center mx-auto space-x-2 text-[12px] font-medium"/>
 
 					<span className="flex items-center ml-auto mr-5 space-x-5">
-						<Button title="Pesan Sekarang" classes="ml-auto hidden md:block"/>
+						<Button title="Pesan Sekarang" classes="ml-auto hidden md:block" 
+						onClick={
+							() => {
+					          	const phoneNumber = "6283850206320"; 
+					          	const message = "Hello!";
+					          
+					          	window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`, '_blank');
+					        	}
+						}/>
 						<h2	className={`select-none lg:hidden sm:block hover:cursor-pointer px-2 rounded-lg hover:is-active  ${openMenu ? 'is-active':'text-appskep-secondary'} `} onClick={openMenuToggle} > = </h2>
 					</span>
 

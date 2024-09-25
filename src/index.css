@@ -38,7 +38,7 @@
   }
 
  .form-group{
-    @apply bg-appskep-secondary/20 text-appskep-secondary/50 rounded-xl px-5 py-3 focus:border-2 focus:text-appskep-secondary;
+    @apply bg-appskep-secondary/20 rounded-xl px-5 py-3 focus:border-2 focus:text-appskep-secondary;
   }
 
   form {
@@ -49,7 +49,7 @@
   }
 
   form .form-control input, textarea, select {
-    @apply w-full px-[0.7rem] py-[0.5rem] bg-appskep-secondary/20 text-appskep-secondary/50 rounded-xl px-5 py-3 focus:border-2 focus:text-appskep-secondary;
+    @apply w-full px-[0.7rem] py-[0.5rem] bg-appskep-dark/20 rounded-xl px-5 py-3 focus:border-2 focus:text-appskep-dark;
   }
 
 } 
