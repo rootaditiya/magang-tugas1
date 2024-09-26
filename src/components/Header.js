@@ -35,11 +35,11 @@ const Header = () => {
 	return(
 		<div className="">
 
-			<div className="fixed top-0 left-0 right-0 z-10 bg-white/95 shadow-lg shadow-slate-/50">
+			<div className="fixed top-0 left-0 right-0 z-10 bg-white/95 shadow-lg shadow-slate-/50 py-1 sm:py-0">
 
-				<div className='my-2 flex justify-start items-center max-w-screen-lg items-center py-1 lg:mx-auto sm:ml-5'>
-					<a className="block w-[12rem]" href="#hero">
-					<img src="/logo-appshomecare.svg" alt="Apps Homecare" height="50px"/>
+				<div className='sm:my-2 flex justify-start items-center max-w-screen-lg items-center py-1 lg:mx-auto sm:ml-5'>
+					<a className="block w-[10rem] sm:w-[12rem] " href="#hero">
+					<img src="/logo-appshomecare.svg" alt="Apps Homecare" className="h-[45px] sm:h-[50px] w-auto"/>
 					</a>
 
 					<Navbar classes="hidden lg:flex flex-row justify-items-center mx-auto space-x-2 text-[12px] font-medium"/>
@@ -61,16 +61,16 @@ const Header = () => {
 
 			</div>
 
-			<div className={`fixed z-20 h-screen w-screen bg-black/25 transition-opacity ease-in-out delay-150 ${openMenu ? 'top-0 left-0 opacity-100 lg:hidden' : 'z-0 opacity-20 hidden'} duration-300`}
+			<div className={`fixed z-20 h-full w-full bg-black/25 transition-opacity ease-in-out delay-150 ${openMenu ? 'top-0 left-0 opacity-100 lg:hidden' : 'z-0 opacity-20 hidden'} duration-300`}
 					onClick={openMenuToggle}
 				>
 					
 			</div>
 
-			<div className={`fixed top-0 w-[250px] z-30 min-h-screen bg-white opacity-100 shadow-lg shadow-slate-100/50 text-[12px] font-normal transition ease-in-out delay-150 ${openMenu ? 'translate-x-0 lg:hidden' : '-translate-x-full'} duration-300`}
+			<div className={`fixed top-0 w-[250px] z-30 h-full bg-white opacity-100 shadow-lg shadow-slate-100/50 text-[12px] font-normal transition ease-in-out delay-150 ${openMenu ? 'translate-x-0 lg:hidden' : '-translate-x-full'} duration-300`}
 				onClick={(e) => e.stopPropagation()}
 				>
-				<Navbar classes="flex flex-col pt-5 px-2 space-y-1" onClick={openMenuToggle}/>
+				<Navbar classes="flex flex-col pt-5 px-2 space-y-1 mt-5 sm:mt-0" onClick={openMenuToggle}/>
 
 				<Button title="Pesan Sekarang" classes="ml-5 mt-5"
 					onClick={() => {

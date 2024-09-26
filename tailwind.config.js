@@ -10,6 +10,7 @@ module.exports = {
         'xs': '480px',
         '2xs': '300px',
       },
+
       colors: {
         'appskep': {
           'primary': '#00a3e9',
@@ -21,7 +22,25 @@ module.exports = {
           'lightBlue': '#85cede',
           'white': '#ffffff',
         },
-      }
+      },
+
+      container: {
+        center: true, 
+        padding: {
+          DEFAULT: '1rem',   
+          'xs': '1rem',      
+          'sm': '2rem',      
+          'lg': '4rem',     
+          '2xl': '6rem',     
+        },
+        screens: {
+          'sm': '100%',     
+          'md': '768px',    
+          'lg': '1024px',   
+          'xl': '1280px',   
+        },
+      },
+
     },
   },
   plugins: [],

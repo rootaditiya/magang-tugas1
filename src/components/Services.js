@@ -43,7 +43,7 @@ const Services = () => {
 
 	return(
 		<Section id="layanan">
-			<div className="container relative flex items-center flex-col gap-5 ">
+			<div className="w-full sm:container relative flex items-center flex-col gap-5 ">
 				<h2 className="text-appskep-dark">Layanan Kami</h2>
 				<p className="text-appskep-secondary">
 					Penuhi segala kebutuhan kesehatanmu terjaga bersama APPS HOMECARE

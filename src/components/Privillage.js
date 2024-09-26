@@ -25,7 +25,7 @@ const Privillage = () => {
 
 	return(
 			<Section id="privillage" className="bg-appskep-primary text-white">
-				<div className="container relative flex items-center flex-col gap-5 ">
+				<div className="w-full sm:container relative flex items-center flex-col gap-5 ">
 					<h2 className="">Apa yang Membuat Kami Unggul?</h2>
 					<p>
 						Keunggulan yang kami miliki dalam memberikan perawatan terbaik untuk Anda dan orang tersayang

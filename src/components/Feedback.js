@@ -11,7 +11,7 @@ export default function Feedback(){
 
 	return(
 			<Section id="feedback">
-				<div className="container lg:max-w-screen-lg flex flex-col gap-5 items-center">
+				<div className="w-full sm:container lg:max-w-screen-lg flex flex-col gap-5 items-center">
 					<h2 className="">Cerita Mereka Tentang Apps Homecare</h2>
 					<p className="text-appskep-secondary">
 						Terdapat testimoni yang diberikan oleh pasien terhadap Apps Homecare

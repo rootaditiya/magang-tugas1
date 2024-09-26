@@ -35,8 +35,7 @@ const App = () => {
 
 
   return (
-    <>
-      <div className="flex flex-col gap-0 pt-[4.75rem] lg:pt-[5.25rem]">
+      <div className="relative gap-0 pt-[3.50rem] md:pt-[4.75rem] lg:pt-[5.25rem] w-full">
         <Header/>
         <Hero/>
         <Consult/>
@@ -49,8 +48,8 @@ const App = () => {
         <Contact/>
         <Footer/>
 
-        <div className={`${showButton ? 'block' : 'hidden'} fixed bottom-24 right-10 rounded-full  opacity-75 hover:opacity-100`}>
-          <Button title="^" classes="animate-bounce"
+        <div className={`${showButton ? 'block' : 'hidden'} fixed bottom-24 right-10 rounded-full  opacity-50 hover:opacity-100`}>
+          <Button title="^" classes="animate-bounce" padding="px-4 py-3"
           onClick={() => {
             const element = document.getElementById('hero');
               if (element) {
@@ -61,7 +60,7 @@ const App = () => {
         </div>
 
         <div className="fixed bottom-5 right-5">
-          <Button title="Chat" img={ChatIcon} classes="border-2 border-white"
+          <Button title="Chat" img={ChatIcon} classes="border-[1px] sm:border-2 border-white" padding="px-3 py-2"
           onClick={() => {
           const phoneNumber = "6281378798069"; 
           const message = "Hello!";
@@ -72,8 +71,6 @@ const App = () => {
         </div>
 
       </div>
-
-    </>
   );
 }
 

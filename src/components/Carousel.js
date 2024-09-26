@@ -21,8 +21,10 @@ export default function Carousel({slides, autoslide=false, autoslideInterval = 3
 	}
 
 	const getTranslateValue = () => {
-	    return `-${currentIndex * 100 + 50}%`;
+	    return currentIndex * 100;
 	  };
+
+	const translateValue = window.innerWidth < 640 ? getTranslateValue(): getTranslateValue()+50;
 
 	useEffect(() => {
 			if(!autoslide) return
@@ -32,14 +34,14 @@ export default function Carousel({slides, autoslide=false, autoslideInterval = 3
 
 	return(
 		<div className="relative flex flex-col space-y-5 justify-center items-center lg:overflow-auto md:overflow-hidden space-y-5 ">
-			<div className="relatif flex overflow-hidden max-w-[640px] items-center py-5 space-x-5"
+			<div className="relatif flex overflow-hidden max-w-[300px] sm:max-w-[640px] items-center py-5 sm:space-x-5"
 			>		
 				
 				{
 					extendedSlides.map((item, index) => (
 						<div className={`${handleView(currentIndex) === index ? 'scale-100': 'scale-50'} select-none min-w-[300px] relative flex flex-col shadow-xl shadow-appskep-primary/25 justify-center items-center w-1/3 ${handleView(currentIndex) === index ? 'opacity-100 scale-100': 'opacity-50 scale-50'} transition-transform duration-500 ease-in-out`} key={index}
 							style={{ 
-								  transform: `translateX(${getTranslateValue()}`, 
+								  transform: `translateX(-${translateValue}%)`, 
 								}}
 
 						>

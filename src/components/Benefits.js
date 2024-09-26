@@ -34,7 +34,7 @@ const Benefits = () => {
 		<Section
 			id="benefits"
 		>
-			<div className="container relative flex flex-col justify-center items-center ">
+			<div className="w-full sm:container relative flex flex-col justify-center items-center ">
 				<h2 className="mb-4 text-appskep-dark">Apa yang Pasien Kami Dapatkan?</h2>
 
 				<p className="text-appskep-secondary">

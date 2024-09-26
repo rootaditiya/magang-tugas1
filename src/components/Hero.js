@@ -10,8 +10,8 @@ const Hero = () => {
 			className=""
 			customPaddings="px-0"
 		>
-			<div className="bg-gradient-to-t from-appskep-primary/10 to-transparent w-full h-full pb-[13px] sm:pb-[12px]">
-				<div className="container relative mx-auto my-0  pb-[2rem]">
+			<div className="bg-gradient-to-t from-appskep-primary/10 to-transparent w-full min-h-full sm:h-full pb-[13px] sm:pb-[12px]">
+				<div className="relative mx-auto my-0  pb-[2rem] w-full sm:container ">
 					<div className=" mx-auto relative max-w-screen-lg lg:grid grid-cols-2 gap-2">
 						<div className="px-5 flex flex-col">
 							<h1 className="leading-[1.2] mb-8">
@@ -22,7 +22,7 @@ const Hero = () => {
 								Kami siap memberikan layanan Homecare live in yang mengutamakan keamanan dan kenyamanan sepenuhnya di rumah Anda.
 							</p>
 
-							<div><Button title="Pesan Sekarang" classes="border-none" 
+							<div><Button title="Pesan Sekarang" classes="border-none" padding="px-4 py-3" 
 								onClick={() => {
 					          	const phoneNumber = "6283850206320"; 
 					          	const message = "Hello!";

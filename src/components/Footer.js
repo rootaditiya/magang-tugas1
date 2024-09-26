@@ -12,7 +12,7 @@ export default function Footer(){
 
 	return(
 		<Section id="footer" className="bg-slate-100">
-			<div className="container relative lg:max-w-screen-lg flex flex-col gap-10 items-center text-[14px] text-appskep-dark">
+			<div className="w-full sm:container relative lg:max-w-screen-lg flex flex-col gap-10 items-center text-[14px] text-appskep-dark">
 
 				<div className="md:grid grid-cols-12 flex flex-col gap-5">
 
@@ -93,7 +93,7 @@ export default function Footer(){
 
 				</div>
 
-				<p className="font-bold">© 2024 Appskep. All Right Reserved PT APLIKASI KRIYA PRATAMA</p>
+				<p className="font-bold align-self-center">© 2024 Appskep. All Right Reserved PT APLIKASI KRIYA PRATAMA</p>
 			</div>
 		</Section>
 		);

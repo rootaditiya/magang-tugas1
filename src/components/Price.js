@@ -36,7 +36,7 @@ const Price = () => {
 
 	return(
 			<Section id="harga" className="">
-				<div className="container relative flex items-center flex-col gap-5 ">
+				<div className="w-full sm:container relative flex items-center flex-col gap-5 ">
 					<h2 className="text-appskep-dark">Pilihan Harga Terbaik untuk Anda</h2>
 					<p className="text-appskep-secondary">
 						Kami selalu memberikan layanan berkualitas tinggi dengan tarif kompetitif

@@ -38,9 +38,9 @@ export default function Form(){
 	}
 
 	return(
-		<div className="container bg-white">
+		<div className="w-full sm:container bg-white">
 			<div className="form-wrapper flex p-0 ">
-				<form onSubmit={formik.handleSubmit} className="flex flex-col min-w-full space-y-[1rem] justify-center p-5 min-w-full">
+				<form onSubmit={formik.handleSubmit} className="flex flex-col min-w-full space-y-[1rem] justify-center p-0 sm:p-5 min-w-full">
 					<div className="form-control flex flex-col gap-5 lg:flex-row ">
 						<label className="lg:basis-1/2">Masukan nama Pasien:
 						<input type="text" className={formik.values.pasienName ? 'text-appskep-dark' : 'text-appskep-secondary/50'} placeholder="Masukan nama pasien" onChange={handleForm} name='pasienName'/>
@@ -90,8 +90,8 @@ export default function Form(){
 						{formik.errors.address && <div className="text-red-500 text-sm">{formik.errors.address}</div>}
 					</div>
 
-					<div className="mb-5 mt-auto">
-						<button type="submit" className="flex items-center justify-center px-6 py-4 bg-appskep-primary hover:bg-appskep-primary-hover text-white text-lg rounded-full font-semibold">Konsultasi Sekarang</button>
+					<div className="mb-0 mt-auto mx-0">
+						<button type="submit" className="flex items-center justify-center px-5 py-4 sm:px-6 sm:py-4 bg-appskep-primary hover:bg-appskep-primary-hover text-white text-md sm:text-lg rounded-full font-semibold">Konsultasi Sekarang</button>
 					</div>
 				</form>
 			</div>
