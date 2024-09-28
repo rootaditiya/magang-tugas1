@@ -1,4 +1,5 @@
 import Section from './Section.js'
+import Card from './Card.js'
 
 const Privillage = () => {
 
@@ -34,7 +35,7 @@ const Privillage = () => {
 					<div className="relatif lg:max-w-7xl grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 justify-items-start">
 
 						{privillageList.map((item) => (
-								<div key={item.id}
+								<Card key={item.id}
 								className="flex flex-col gap-4 w-full text-[1.25rem] shadow-2xl shadow-appskep-primary/15 rounded-xl p-10 bg-appskep-white">
 
 									<img src={item.icon} alt="null" width="64"/>
@@ -44,7 +45,7 @@ const Privillage = () => {
 									<p className="text-[12px] text-appskep-secondary">
 										{item.description}
 									</p>
-								</div>
+								</Card>
 							))	
 						}
 

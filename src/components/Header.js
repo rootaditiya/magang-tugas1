@@ -38,7 +38,7 @@ const Header = () => {
 			<div className="fixed top-0 left-0 right-0 z-10 bg-white/95 shadow-lg shadow-slate-/50 py-1 sm:py-0">
 
 				<div className='sm:my-2 flex justify-start items-center max-w-screen-lg items-center py-1 lg:mx-auto sm:ml-5'>
-					<a className="block w-[10rem] sm:w-[12rem] " href="#hero">
+					<a className="block w-[10rem] sm:w-[12rem] pl-3 sm:pl-0" href="#hero">
 					<img src="/logo-appshomecare.svg" alt="Apps Homecare" className="h-[45px] sm:h-[50px] w-auto"/>
 					</a>
 

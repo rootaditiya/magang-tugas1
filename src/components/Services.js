@@ -1,4 +1,5 @@
 import Section from './Section.js'
+import Card from './Card.js'
 
 const Services = () => {
 
@@ -52,8 +53,8 @@ const Services = () => {
 				<div className="relatif lg:max-w-7xl grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 justify-items-start">
 
 						{serviceList.map((item) => (
-								<div key={item.id}
-								className="flex flex-col gap-4 w-full text-[1.25rem] shadow-2xl shadow-appskep-primary/15 rounded-xl p-10 bg-appskep-white">
+								<Card key={item.id}
+								className="card flex flex-col gap-4 w-full text-[1.25rem] shadow-2xl shadow-appskep-primary/15 rounded-xl p-10 bg-appskep-white">
 
 									<img src={item.icon} alt="null" width="64"/>
 									<span className="text-appskep-primary font-bold">
@@ -62,7 +63,7 @@ const Services = () => {
 									<p className="text-[12px] text-appskep-secondary">
 										{item.description}
 									</p>
-								</div>
+								</Card>
 							))	
 						}
 

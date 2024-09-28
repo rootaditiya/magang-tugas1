@@ -38,7 +38,7 @@ export default function Form(){
 	}
 
 	return(
-		<div className="w-full sm:container bg-white">
+		<div className="w-full bg-white">
 			<div className="form-wrapper flex p-0 ">
 				<form onSubmit={formik.handleSubmit} className="flex flex-col min-w-full space-y-[1rem] justify-center p-0 sm:p-5 min-w-full">
 					<div className="form-control flex flex-col gap-5 lg:flex-row ">

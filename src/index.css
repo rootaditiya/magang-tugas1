@@ -10,6 +10,10 @@
     padding: 0;
   }
 
+  :root {
+    @apply text-[14px]
+  }
+
   html{
     @apply !scroll-smooth;
   }
@@ -20,7 +24,7 @@
   }
 
   h1{
-    @apply text-[2.5rem] md:text-[3rem] lg:text-[4rem] xl:text-[3rem] font-bold text-appskep-black;
+    @apply text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] font-bold text-appskep-black;
   }
 
   h2{

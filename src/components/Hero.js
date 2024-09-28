@@ -13,12 +13,12 @@ const Hero = () => {
 			<div className="bg-gradient-to-t from-appskep-primary/10 to-transparent w-full min-h-full sm:h-full pb-[13px] sm:pb-[12px]">
 				<div className="relative mx-auto my-0  pb-[2rem] w-full sm:container ">
 					<div className=" mx-auto relative max-w-screen-lg lg:grid grid-cols-2 gap-2">
-						<div className="px-5 flex flex-col">
-							<h1 className="leading-[1.2] mb-8">
+						<div className="px-5 flex flex-col justify-items-center sm:justify-items-start">
+							<h1 className="leading-[1.2] mt-10 sm:mt-0 mb-16 sm:mb-8">
 								Perawatan Kesehatan di Rumah dengan Layanan <span className="text-appskep-primary">Profesional</span> dan <span className="text-appskep-primary">Berkualitas</span>
 							</h1>
 
-							<p className="mb-10 text-appskep-secondary">
+							<p className="mb-14 sm:mb-10 text-appskep-secondary">
 								Kami siap memberikan layanan Homecare live in yang mengutamakan keamanan dan kenyamanan sepenuhnya di rumah Anda.
 							</p>
 
@@ -31,7 +31,7 @@ const Hero = () => {
 					        	}}
 					        /></div>
 						</div>
-						<div className="hidden lg:block p-0 ">
+						<div className="hidden lg:block p-0 h-full">
 							<img className="object-cover w-full m-0" src={section1Image} alt="Apps Homecare" height=""/>
 						</div>
 

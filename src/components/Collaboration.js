@@ -1,4 +1,5 @@
 import Section from './Section.js'
+import Card from './Card.js'
 import Button from './Button.js'
 import CollabSectionImage from '../assets/section-2.svg'
 
@@ -7,7 +8,7 @@ const Collaboration = () => {
 		<Section 
 		className="bg-appskep-primary "
 		id="join">
-			<div className="w-full sm:container relatif lg:max-w-screen-lg px-[26px] py-[29.25px] bg-appskep-white rounded-[40px] flex lg:grid lg:grid-cols-2 gap-0">
+			<Card className="w-full sm:container relatif lg:max-w-screen-lg px-[26px] py-[29.25px] bg-appskep-white rounded-[40px] flex lg:grid lg:grid-cols-2 gap-0">
 				 <div className="flex flex-col">
 				 	<div className="mb-[19.5px]">
 				 		<p>#PasienBahagia</p>
@@ -33,7 +34,7 @@ const Collaboration = () => {
 				 <div className="hidden lg:block px-0 ps-[48.75px] pe-[9.75px]">
 				 	<img src={CollabSectionImage} alt="true" width="full" height="auto"/>
 				 </div>
-			</div>
+			</Card>
 		</Section>
 		);
 }

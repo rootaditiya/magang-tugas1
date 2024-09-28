@@ -1,4 +1,5 @@
 import Section from './Section.js'
+import Card from './Card.js'
 import Button from './Button.js'
 
 const Price = () => {
@@ -45,21 +46,21 @@ const Price = () => {
 					<div className="relatif lg:max-w-7xl xs:flex xs:flex-col gap-5 sm:grid sm:grid-cols-2 sm:gap-5 justify-items-start">
 
 						{priceList.map((item) => (
-								<div key={item.id}
-								className="flex flex-col gap-4 w-full text-[1.25rem] shadow-2xl shadow-appskep-primary/15 rounded-xl p-10 bg-appskep-white">
+								<Card key={item.id}
+								className="flex flex-col gap-4 w-full text-[1rem] sm:text-[1.25rem] shadow-2xl shadow-appskep-primary/15 rounded-xl p-10 bg-appskep-white">
 									<span className="font-bold">
 										{item.title}
 									</span>
 									<div className="flex flex-row gap-5">
 										<span className="text-appskep-primary">Rp. {item.price},-</span>
-										<span className="text-appskep-secondary text-[12px]">{item.unit}</span>
+										<span className="text-appskep-secondary text-sm sm:text-[12px]">{item.unit}</span>
 									</div>
 									<p className="text-[12px] text-appskep-secondary mb-10">
 										{item.description}
 									</p>
 
 									<Button title="Pesan Sekarang" classes="mb-0"/>
-								</div>
+								</Card>
 							))	
 						}
 
