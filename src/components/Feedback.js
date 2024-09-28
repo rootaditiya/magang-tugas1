@@ -4,9 +4,9 @@ import Carousel from './Carousel.js'
 export default function Feedback(){
 
 	const slides = [
-			{id:1, comment:"this comment 1"},
-			{id:2, comment:"this comment 2"},
-			{id:3, comment:"this comment 3"}
+			{id:1, comment:"this comment 1", img:"https://storage.googleapis.com/appskep/ukom/testimonial/43.jpg?updated_at=1711618844"},
+			{id:2, comment:"this comment 2", img:"https://storage.googleapis.com/appskep/ukom/testimonial/22.jpg?updated_at=1711618585"},
+			{id:3, comment:"this comment 3", img:"https://storage.googleapis.com/appskep/ukom/testimonial/69.jpg?updated_at=1711619526"}
 		]
 
 	return(

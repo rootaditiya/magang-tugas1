@@ -45,13 +45,18 @@ export default function Carousel({slides, autoslide=false, autoslideInterval = 3
 								}}
 
 						>
-							<div className="md:absolute right-0 top-0 max-w-[50px] ">
-								<img alt="" src={QuoteImage} className="w-20 sm:w-12"/>
+							<div className="absolute right-0 top-0 max-w-[50px] ">
+								<img alt="" src={QuoteImage} className="w-10 sm:w-12"/>
 							</div>
-							<div className="block h-[50px] md:h-[100px]">
+
+							{ item.img ? 
+							<div className="flex flex-col items-center mt-10">
+								<img alt="" src={item.img} className="w-16 sm:w-20 rounded-full"/>
 								
-							</div>
-							<div className="px-5 py-10">{item.comment}</div>
+							</div> : ''
+
+							}
+							<div className="px-5 py-10 text-sm">{item.comment}</div>
 						</div>
 						))
 				}
